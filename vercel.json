@@ -2,7 +2,6 @@
   "buildCommand": "echo 'Static site'",
   "outputDirectory": "src",
   "installCommand": "npm install",
-  "framework": "static",
   "git": {
     "deploymentEnabled": {
       "main": true
