@@ -1,0 +1,14 @@
+{
+  "buildCommand": "echo 'Static site'",
+  "outputDirectory": "src",
+  "publicSource": "src",
+  "installCommand": "npm install",
+  "framework": "static",
+  "functions": {},
+  "env": {},
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  }
+}
