@@ -1,0 +1,181 @@
+/* RAGU BRAND CONFIGURATION
+ * VibeCoded Website Brief - 2025
+ * Font: Plus Jakarta Sans
+ */
+
+:root {
+  /* Primary Branding Colors */
+  --ragu-indigo: #2C264A;
+  --ragu-lavender: #D9E2FE;
+  --ragu-light-gray: #F0F2FA;
+  --text-dark: #3D3D3D;
+  --text-black: #222222;
+  --text-accent: #CACCD5;
+  --white: #FFFFFF;
+
+  /* Typography */
+  --font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+}
+
+/* Global Typography */
+body {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
+  color: var(--text-dark);
+  line-height: 1.6;
+  background-color: var(--white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-black);
+  line-height: 1.2;
+  text-transform: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-md);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: var(--space-md);
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: var(--space-sm);
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: var(--space-md);
+}
+
+/* Brand Button Style */
+.btn-primary {
+  background-color: var(--ragu-indigo);
+  color: var(--white);
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: 4px;
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1f1b35;
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid var(--ragu-indigo);
+  color: var(--ragu-indigo);
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: 4px;
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: var(--ragu-indigo);
+  color: var(--white);
+}
+
+/* Navigation */
+nav {
+  background-color: var(--white);
+  padding: var(--space-md) 0;
+  border-bottom: 1px solid var(--ragu-light-gray);
+}
+
+nav a {
+  color: var(--text-dark);
+  text-decoration: none;
+  margin-right: var(--space-lg);
+  font-weight: var(--font-weight-regular);
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--ragu-indigo);
+}
+
+/* Hero Section */
+.hero {
+  background-color: var(--white);
+  padding: var(--space-2xl) var(--space-lg);
+  text-align: center;
+  border-bottom: 1px solid var(--ragu-light-gray);
+}
+
+.hero h1 {
+  color: var(--ragu-indigo);
+  font-size: 3rem;
+  margin-bottom: var(--space-md);
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: var(--text-dark);
+  max-width: 600px;
+  margin: 0 auto var(--space-lg);
+}
+
+/* Footer */
+footer {
+  background-color: var(--ragu-indigo);
+  color: var(--white);
+  padding: var(--space-2xl) var(--space-lg);
+  margin-top: var(--space-2xl);
+}
+
+footer a {
+  color: var(--ragu-lavender);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+}

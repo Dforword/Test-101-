@@ -1,0 +1,189 @@
+Website Build Project Plan
+Visual notes here
+Vibe Coded version brief here
+Purpose & Goals
+Objective: 
+The site should demonstrate that Ragu is the most credible partner for leaders who want AI that works in the real world, the way they need it to. It needs to build brand awareness, establish trust, and explain our approach with clarity and restraint. It must showcase our consulting, our platform and our custom agents without overwhelming users with technical detail. The site should present case studies and thought leadership that reinforce our expertise and signal that we understand high-touch, high-context businesses. ( This content should be written and designed for social platforms like linkedIN). Finally, the site should support demand generation by making it easy for qualified visitors (prospective clients or potential partners) to understand our value, share information about us with their peers, request a conversation or connect with us about a partnership. In short: 
+Build brand awareness and credibility
+Showcase products, services
+Showcase case studies and thought leadership
+Generate leads
+Share information
+Target audience: 
+The primary audience is senior leaders at high-touch businesses where judgment, nuance and service define the brand. This includes CEOs, COOs, CTOs and heads of client-facing functions in luxury goods, travel, wine and spirits, private wealth, professional services and other high-context sectors. 
+The secondary audience is strategic partners, such as system integrators and boutique consultancies, who may want to bring Ragu’s platform or expertise into their client base. The site should speak to both groups with confidence, maturity and clarity.
+Core messaging:
+Ragu helps organizations adopt AI with purpose and precision. We bring strategic clarity to what matters most, align leadership on the right starting point, and deliver a secure AI foundation that employees can use immediately. Every solution reflects the client’s brand, workflows and standards, so it works in practice, not just in theory. Our agents elevate service, unlock efficiency and create new value, and they scale through a governed, adaptable platform. What should come through above all is that Ragu blends trusted advisory experience with technical excellence to help leaders move from uncertainty and experimentation to systems that deliver lasting impact.
+Viewer pain points and mindset:
+Leaders at high-touch, high-context businesses know they need to adopt AI, but  are unsure where to begin and what real value looks like. They’re cautious about making the wrong investment, disrupting service (or their employees) or introducing tools that feel disconnected from their brand. Many have tried (or are tempted to try) small pilots or point solutions that produce little impact, create new silos and/or never reach production. T
+They seek clarity on when to act, how to sequence the work and what to expect in terms of cost, effort and return. They want partners who understand their business, their standards, and the risks of moving too quickly or without a plan. Detailed case studies will prove very useful to them.
+Ragu’s approach is designed for this mindset. We remove ambiguity by helping leaders identify meaningful opportunities, define a credible starting point, and build an integrated AI foundation that avoids the pitfalls of pilot paralysis and bolt-on tools. Instead of fragmented experiments, they get a path that produces early wins while setting the conditions for long-term, compounding value.
+Features & Functionality
+Pages/sections:
+Homepage
+Services/Products page
+Demo (?)
+Case studies / testimonials
+Blog/thought leadership
+About us (Ragu history and leadership team)
+Contact page/form plus button on each page
+FAQs
+Features
+Contact form
+Booking/appointment system
+Content Management System (CMS)
+Demo (?)
+Technical Preferences
+Technology stack: Webflow
+Mobile responsiveness: Yes, if possible
+Design & Branding
+Branding requirements
+Logo
+Color palette
+Font preferences
+AP-style (initial caps only, light use of commas)
+Editorial  brand guidelines
+Style notes:
+Modern, clean
+Elegant/Luxury
+Professional
+Content & Assets
+Text and images to date can be found here and in Marketing 2H2025 folder
+Deployment & Hosting
+Site hosted on GoDaddy
+Domain name Ragu.ai
+SEO considerations (TBD)
+Phase 3: Development
+Step-by-Step Development Process
+Step 1: Setup
+Choose and setup technology stack
+Tools: Webflow
+Template: Foresight
+Initialize project
+Configure build tools
+Set up development environment
+Step 2: Design & Layout
+Create wireframes/mockups and/or select templates
+Install color palette
+Install typography
+Create and download images
+Crop and modify images
+Upload ready  images
+Create design system
+Build layout components (Header, Footer, Navigation)
+Step 3: Content Structure
+Plan page structure (each page)
+Create content hierarchy
+Prepare all copy
+Gather images and assets
+Step 4: Client logos
+Obtain permissioned client logos
+Create client logo section and add assets
+Step 5: Create content
+Refresh and leverage any existing blogs from current site
+Design and upload content with new imagery and design
+Update / refresh old case studies
+Create new case studies and content/blogs
+Step 6: Core Features
+Build homepage
+Create key pages
+Implement navigation
+Add interactive elements
+Implement forms (if needed)
+Step 7: Styling & Responsiveness
+Apply styling
+Implement responsive design
+Test on multiple devices
+Polish animations and transitions
+Optimize for performance
+Step 8: Functionality
+Add any required features
+Implement integrations
+Test functionality
+Handle edge cases
+Error handling
+Step 9: Optimization
+Optimize images
+Minimize CSS/JS
+SEO optimization
+Performance testing
+Accessibility checks
+Step 10: Testing & Review
+Cross-browser testing
+Mobile testing
+Fix bugs
+Content review
+Final polish
+Step 11: Deployment
+Setup hosting
+Configure domain
+Deploy website
+Setup analytics
+Test live site
+Step 12: Launch & Maintenance
+Final checks
+Launch website
+Monitor performance
+Plan updates
+Documentation
+CONTENT (for launch)
+For launch, the minimum set that establishes credibility, explains value and enables a conversation:
+AI that works for you (Home page intro)
+From clarity to capability (Designed for real work) (approach, consulting, tech, etc. but not too deep)
+Case studies (proof page) – THESE NEED TO BE REFRESHED
+About us (mission, history, leadership judgment, focus/experience in high-touch environments)
+Contact us
+Later can add 
+Blogs / thought leadership
+FAQs
+Drafts
+Home Page 
+Objective: Set the stage quickly, messaging who we’re for, what we do, why we’re better/different, why we’re credible.
+V1. 	Headline: AI that works – for you [animated]
+Subhead: Strategic clarity, confident execution, systems built to scale.
+V2. 	Headline: Clear paths to intelligent work
+Subhead: Clarity on where to begin, confidence in how to proceed, and a foundation built to scale.
+Intro: Ragu helps organizations adopt AI with clarity and purpose. Our work combines strategic guidance, a flexible platform and finely crafted agents that fit the way your business serves clients.
+Section: 
+Tools that feel crafted, not generic. We build systems that respect the nuance of high-touch work. From the way your teams make decisions to the way your clients experience service, our agents are designed to support what makes your business distinct—without adding complexity.
+Section: 
+Adoption without disruption. AI works best when it fits the way people already work. Our agents are intuitive and focused, supported by thoughtful onboarding, clear communication and a steady path to adoption.
+Learn more / CTA / Connect Button [at top and bottom]: Explore what AI can do for your business.
+Capabilities page
+Objective: Offer a high level view of what we do and how we do it
+Headline: From clarity to capability 
+Subhead: Designed for real work
+Intro: AI adoption fails when it starts with technology. We start with strategy—understanding where AI can create genuine value, then building systems that deliver it.
+Pillars:
+Discovery and blueprint We work with leadership to identify the right opportunities, define success and build a credible plan. No pilots that go nowhere. No tools that don't fit.
+Secure, adaptable platform Our foundation is built for enterprise requirements: data privacy, integration with existing systems, and the flexibility to evolve as your needs do.
+Bespoke agents Every agent reflects your brand, your workflows, your standards. Precision-built to do focused work exceptionally well.
+Adoption that sticks Technology only creates value when people use it. We design for intuitive adoption—clear communication, thoughtful onboarding, and support that ensures early wins become lasting habits.
+CTA: See how it works in practice → [link to case studies]
+About us
+Mission We help organizations adopt AI that works—systems built for how their business actually operates, not how vendors imagine it should.
+Our story
+Ragu was founded over three years ago, when generative AI was emerging and enterprises were either on the sidelines or testing fragmented experiments. We saw something different: an opportunity to bring strategic discipline to AI adoption, pairing advisory experience with hands-on technical delivery.
+We started as a platform company building unique,custom AI assistants tapping our cutting. We evolved into something more useful—strategic advisors who also build. Today, we work with clients who share our belief that AI should elevate service, not erode it. While we are industry agnostic, our clients are hyperfocused on high touch and luxury businesses. Engagements span luxury travel, fine wine and spirits, technical, financial, manufacturing and other sectors where judgment and nuance define the brand.
+In 2025, our work with Black Tomato won "Best Use of AI" at the TTG Luxury Travel Awards—recognition that AI, done well, can enhance rather than diminish what makes a business exceptional.
+What guides us
+People first, always AI should make work better for the people who do it and the clients they serve. We design for adoption, not just deployment.
+Craft over speed We'd rather build one thing that lasts than ten things that don't. Every agent, every integration, every recommendation reflects that standard.
+Clarity before action The hardest part of AI isn't the technology—it's knowing where to begin. We help leaders see the path before they commit to it.
+Connect with us
+Headline: Start a conversation
+Subhead: Tell us a bit about what you're exploring. We'll be in touch within one business day.
+Form fields:
+Name (required)
+Email (required)
+Company
+Role
+What brings you to Ragu? (dropdown)
+Exploring AI strategy
+Looking for a technology partner
+Interested in a specific capability
+Partnership inquiry
+Something else
+Anything you'd like us to know? (optional text area)
+Button: Send
+[Note: how is the system sending a “thank you” and follow up note?

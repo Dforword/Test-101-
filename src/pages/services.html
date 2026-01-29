@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Ragu AI</title>
+  <meta name="description" content="Advisory & discovery, Ragu AI platform, and bespoke intelligent agents for high-context organizations.">
+  <style>
+    :root {
+      --ragu-indigo: #2C264A;
+      --ragu-lavender: #D9E2FE;
+      --ragu-light-gray: #F0F2FA;
+      --text-dark: #3D3D3D;
+      --text-black: #222222;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: "Plus Jakarta Sans", sans-serif; color: var(--text-dark); line-height: 1.6; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid var(--ragu-light-gray);
+    }
+    .logo { font-size: 1.5rem; font-weight: 700; color: var(--ragu-indigo); }
+    nav { display: flex; gap: 2rem; }
+    nav a { text-decoration: none; color: var(--text-dark); }
+    nav a:hover { color: var(--ragu-indigo); }
+    
+    main { padding: 3rem 2rem; }
+    h1 { font-size: 2.5rem; color: var(--ragu-indigo); margin-bottom: 1.5rem; }
+    h2 { font-size: 2rem; color: var(--ragu-indigo); margin: 2rem 0 1rem; }
+    h3 { color: var(--ragu-indigo); margin: 1.5rem 0 0.75rem; }
+    p { margin-bottom: 1rem; }
+    
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+    
+    .service-card {
+      background: white;
+      border: 1px solid var(--ragu-light-gray);
+      border-radius: 8px;
+      padding: 2rem;
+      transition: box-shadow 0.3s ease;
+    }
+    
+    .service-card:hover {
+      box-shadow: 0 4px 12px rgba(44, 38, 74, 0.15);
+    }
+    
+    .service-card h3 { margin-top: 0; }
+    
+    footer {
+      background: var(--ragu-indigo);
+      color: white;
+      padding: 3rem 2rem;
+      text-align: center;
+      margin-top: 4rem;
+    }
+    
+    @media (max-width: 768px) {
+      header { flex-direction: column; gap: 1rem; }
+      nav { flex-direction: column; }
+      h1 { font-size: 1.75rem; }
+      .service-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Ragu AI</div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/services.html">Services</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Our services</h1>
+    <p style="font-size: 1.1rem; margin-bottom: 2rem;">
+      From clarity to capability. We help you move from uncertainty and experimentation to AI systems that deliver lasting impact.
+    </p>
+
+    <div class="service-grid">
+      <div class="service-card">
+        <h3>Advisory & Discovery</h3>
+        <p>
+          We start with clarity. Our advisory process helps you identify meaningful AI opportunities, align leadership on the right starting point, and define success metrics. Clear thinking before coding.
+        </p>
+      </div>
+      
+      <div class="service-card">
+        <h3>Ragu AI Platform</h3>
+        <p>
+          A secure, governed foundation for your AI systems. The platform is built for high-context organizations and scales with your business. Deploy, monitor, and evolve your agents with confidence.
+        </p>
+      </div>
+      
+      <div class="service-card">
+        <h3>Bespoke Intelligent Agents</h3>
+        <p>
+          Custom AI agents designed for your workflows. They elevate service quality, unlock new efficiencies, and create value that compounds over time. Every agent reflects your brand and standards.
+        </p>
+      </div>
+    </div>
+
+    <section style="margin-top: 4rem; padding: 2rem; background: var(--ragu-light-gray); border-radius: 8px;">
+      <h2 style="margin-top: 0;">Why this approach works</h2>
+      <p>
+        Most AI initiatives fail because they skip the clarity phase. Pilots pile up. Point solutions create silos. We reverse that pattern by designing integrated solutions from the start.
+      </p>
+      <p>
+        Our approach removes ambiguity, sequences work strategically, and produces early wins while building toward long-term value. That's why leaders at luxury brands, travel companies, financial services firms and professional services organizations choose Ragu.
+      </p>
+    </section>
+
+    <section style="text-align: center; margin-top: 3rem;">
+      <h2>Ready to explore?</h2>
+      <button onclick="window.location.href='/contact.html'" style="background-color: var(--ragu-indigo); color: white; padding: 1rem 2rem; border: none; border-radius: 4px; font-weight: 600; cursor: pointer; font-size: 1rem;">
+        Let's talk
+      </button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ragu AI. All rights reserved.</p>
+  </footer>
+</body>
+</html>

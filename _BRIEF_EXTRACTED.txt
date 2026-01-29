@@ -1,0 +1,160 @@
+VibeCoded Website Brief
+1/8/26
+This brief is the single source of truth for building the Ragu.ai website using an AI-first, vibe-coding approach. The site should be generated primarily through natural-language intent, not manual UI tooling or platform-specific workflows.
+All output must adhere strictly to the attached Ragu Brand Identity Guidelines (2025)
+Brand Prompt 2025
+.
+Purpose
+The website must establish Ragu AI as the most credible partner for leaders who want AI that works in real, high-context organizations. The site should prioritize trust, clarity and judgment over scale, speed or hype.
+Audience
+Primary audience
+Senior leaders (CEO, COO, CTO and heads of client-facing functions) in high-touch, high-context businesses, including luxury goods, travel, wine and spirits, private wealth and professional services.
+Secondary audience
+Strategic partners, including system integrators and boutique consultancies.
+Audience mindset
+They are cautious, skeptical of AI theater and concerned about brand risk, service disruption and wasted investment. They want clarity on where to begin, how to sequence work and how AI systems will function in practice.
+Homepage promise (locked)
+Headline:
+AI that works for you
+This phrase must not be repeated verbatim elsewhere on the site.
+Brand identity and tone (mandatory)
+Archetype
+Magician: magical yet grounded, premium yet approachable, modern yet timeless
+Brand Prompt 2025
+.
+Tone pillars
+Refined gravitas
+Softened intellect
+Cool precision
+Writing rules
+AP Style (no Oxford commas)
+Sentence case headlines
+Short, declarative sentences
+No hype language
+No startup clichés
+No exaggerated claims
+Brand name usage
+First reference: Ragu AI
+Subsequent references: Ragu
+Brand Prompt 2025
+.
+Visual identity (mandatory)
+Color palette
+Primary: Ragu Indigo #2C264A
+Secondary: Lavender Blue #D9E2FE (light use only)
+UI / spacing: Light Gray #F0F2FA
+Text: Dark Gray #3D3D3D and Black #222222
+Accent: Sterling #CACCD5
+Backgrounds default to white or transparent
+Brand Prompt 2025
+.
+Typography
+Font: Plus Jakarta Sans
+Headlines: SemiBold
+Subheads: Regular or Medium
+Body: Regular, never smaller than 11pt
+Hierarchy through weight, not oversized text
+Brand Prompt 2025
+.
+Design principles
+Elegant restraint
+Generous whitespace
+Strong typographic hierarchy
+Minimal animation
+Editorial, not SaaS
+Avoid
+Bright gradients
+Excessive motion
+Dense UI patterns
+Product-marketing tropes
+Technology assumptions (flexible)
+Build
+AI-generated static site (Astro, Next.js or equivalent)
+Clean CSS or Tailwind
+No Webflow or heavy visual builders
+Hosting
+Assume Vercel or Netlify unless otherwise specified
+Analytics
+Assume Google Analytics (GA4)
+Track page views, CTA clicks and content performance
+Thought leadership publishing
+Assume Notion as the authoring source
+Content rendered to site via build or API
+Publishing should support easy LinkedIn sharing and summarization
+Required launch pages
+Homepage
+Purpose: Establish credibility in under 60 seconds.
+Key elements:
+Hero with locked headline and supporting subhead
+Clear articulation of who Ragu is for
+Three integrated pillars:
+Advisory and discovery
+Ragu AI platform
+Bespoke intelligent agents
+Proof signals
+Clear “connect” CTA
+From Clarity to Capability (page name locked unless changed centrally)
+Purpose: Explain how value is created end to end without presenting a services menu.
+Structure:
+Why AI fails in high-context businesses
+Clarity and sequencing through advisory
+Secure, adaptable platform foundation
+Carefully crafted agents that fit real workflows
+Emphasis on integration and restraint
+Do not frame as:
+A methodology
+A framework
+A consulting pitch
+Case studies / Proof
+Purpose: Demonstrate real-world credibility.
+Requirements:
+Fewer, deeper examples
+Clear context, judgment and outcomes
+Conservative claims
+No vanity metrics
+About
+Purpose: Build trust.
+Focus on:
+Why Ragu exists
+Leadership experience
+Understanding of high-touch work
+Philosophy of deliberate AI adoption
+Contact / Connect
+Purpose: Enable thoughtful conversation.
+Requirements:
+Simple form
+Expectation-setting language
+Invitation, not pressure
+Thought leadership requirements
+The site must support:
+Adding new essays or insights without redesign
+Long-form readability
+Canonical URLs for sharing
+Easy distribution to LinkedIn
+The site is a credibility anchor, not the primary distribution engine.
+Functional requirements
+Mobile responsive
+Fast load times
+Clear CTAs on all pages
+Analytics wired
+Publishing workflow in place
+Explicitly out of scope for launch
+Marketing automation
+Gated content
+Complex personalization
+Heavy animation systems
+Broad multi-editor CMS UI
+Vibe-coding iteration rules
+Iteration feedback should be expressed in terms of feel and intent, for example:
+“Too sales-driven”
+“Feels like SaaS”
+“Needs more restraint”
+“Undermines credibility”
+“Too clever, not clear”
+Avoid pixel-level or tool-specific feedback.
+Definition of done
+The site is complete when:
+It communicates credibility immediately
+It feels calm, confident and intentional
+It supports publishing and measurement
+It does not feel overbuilt or performative

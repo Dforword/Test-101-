@@ -1,0 +1,34 @@
+{
+  "site": {
+    "name": "Ragu AI",
+    "url": "https://ragu.ai",
+    "description": "AI that works for you. Strategic clarity, secure foundations, and intelligent agents for high-context organizations.",
+    "author": "Ragu AI",
+    "email": "hello@ragu.ai"
+  },
+  "pages": {
+    "index": {
+      "title": "Ragu AI - AI that Works For You",
+      "description": "Ragu AI brings strategic clarity and secure AI foundations to high-context organizations. Advisory, platform, and intelligent agents designed for your business.",
+      "keywords": "AI advisory, intelligent agents, AI platform, enterprise AI"
+    },
+    "about": {
+      "title": "About Ragu AI",
+      "description": "Ragu AI blends trusted advisory experience with technical excellence to help leaders adopt AI with purpose and precision."
+    },
+    "services": {
+      "title": "Services - Ragu AI",
+      "description": "Advisory & discovery, Ragu AI platform, and bespoke intelligent agents for high-context organizations."
+    },
+    "contact": {
+      "title": "Contact - Ragu AI",
+      "description": "Get in touch with Ragu AI. Let's explore how AI can work for your organization."
+    }
+  },
+  "branding": {
+    "primaryColor": "#2C264A",
+    "secondaryColor": "#D9E2FE",
+    "font": "Plus Jakarta Sans",
+    "logo": "Ragu AI"
+  }
+}
