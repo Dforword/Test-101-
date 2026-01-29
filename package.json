@@ -2,21 +2,6 @@
   "name": "ragu-website",
   "version": "1.0.0",
   "description": "Ragu AI - AI that works for you",
-  "main": "index.html",
-  "scripts": {
-    "dev": "npx http-server src -p 3000 -o",
-    "build": "echo 'Static site - no build step'",
-    "start": "npx http-server src -p 3000",
-    "deploy": "vercel --prod"
-  },
-  "keywords": [
-    "AI",
-    "advisory",
-    "intelligent agents",
-    "enterprise",
-    "platform"
-  ],
   "author": "Ragu AI",
-  "license": "MIT",
-  "dependencies": {}
+  "license": "MIT"
 }
