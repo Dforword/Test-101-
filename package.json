@@ -18,8 +18,5 @@
   ],
   "author": "Ragu AI",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    "vercel": "^latest"
-  }
+  "dependencies": {}
 }
